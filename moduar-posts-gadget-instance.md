@@ -1,4 +1,4 @@
-    ``` javascript
+    ```javascript
     // <![CDATA[
       <script>
         myModule.addSection("THIS_INSTANCE_UNIQUE_NAME", { 
