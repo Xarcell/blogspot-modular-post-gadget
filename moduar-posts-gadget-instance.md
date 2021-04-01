@@ -1,4 +1,3 @@
-    ```javascript
     // <![CDATA[
       <script>
         myModule.addSection("THIS_INSTANCE_UNIQUE_NAME", { 
@@ -7,4 +6,3 @@
         myModule.run("THIS_INSTANCE_UNIQUE_NAME")
       </script>
     // ]]>
-    ```
