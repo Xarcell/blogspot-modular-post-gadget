@@ -1,6 +1,6 @@
     <script>
-      myModule.addSection("UNIQUE_INSTANCE_NAME", { 
+      myModule.addSection("THIS_INSTANCE_UNIQUE_NAME", { 
         showPosts: 'asRecent',
       })
-      myModule.run("UNIQUE_INSTANCE_NAME")
+      myModule.run("THIS_INSTANCE_UNIQUE_NAME")
     </script>
