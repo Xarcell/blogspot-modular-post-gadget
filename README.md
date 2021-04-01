@@ -8,9 +8,9 @@ Installation is not hard and can be completed in three simple steps. Be sure to 
 
 1. Add the CSS code. There are two methods, choose one:
 
-  - Method One: Go to your “Blogger > Admin > Theme > Customize > Advanced”. Select “Body” from the non-obvious dropdown selection and change it to “ Add CSS”. Then simply copy & paste the contents of the file “modular-posts-gadget-css.min.md” into the textarea and save. **NOTE:** This step may, or may not, need to be repeated if you update your template, depending on how you update your template.
+   - Method One: Go to your “Blogger > Admin > Theme > Customize > Advanced”. Select “Body” from the non-obvious dropdown selection and change it to “ Add CSS”. Then simply copy & paste the contents of the file “modular-posts-gadget-css.min.md” into the textarea and save. **NOTE:** This step may, or may not, need to be repeated if you update your template, depending on how you update your template.
 
-  - Method Two: In your Blogger/Blogspot template, simply copy & paste the contents of the file "modular-posts-gadget-css.min.md" just above the closing `]]> </b:skin>` tag. **NOTE:** There may more than one of these tags, be sure to choose the one that has the bulk of CSS that applies to your whole site. Also, this step may, or may not, need to be repeated if you update your template, depending on how you update your template.
+   - Method Two: In your Blogger/Blogspot template, simply copy & paste the contents of the file "modular-posts-gadget-css.min.md" just above the closing `]]> </b:skin>` tag. **NOTE:** There may more than one of these tags, be sure to choose the one that has the bulk of CSS that applies to your whole site. Also, this step may, or may not, need to be repeated if you update your template, depending on how you update your template.
 
 2. In your Blogger/Blogspot template, simply copy & paste the contents of the "modular-posts-gadget-core.min.md" just below the opening `<body>` tag. **NOTE:** This step may, or may not, need to be repeated if you update your template, depending on how you update your template.
 
