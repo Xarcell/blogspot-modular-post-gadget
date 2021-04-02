@@ -34,7 +34,7 @@ I designed this script to work with my templates that “I” design. If you don
 
 ## SETTINGS & VALUES ##
 Setting|value|Note
--------|-------
+-------|-------|-------
 className|"default"|
 showStandardPostCount|3|
 showAdditionalPostCount|3|
