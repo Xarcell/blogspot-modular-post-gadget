@@ -33,16 +33,16 @@ I designed this script to work with my templates that “I” design. If you don
 * This is my first Github project, so please bare with me.
 
 ## SETTINGS & VALUES ##
-Setting|value|Note
+Parameter|value|Note
 -------|-------|-------
-className|"default"|
-showStandardPostCount|3|
-showAdditionalPostCount|3|
-showPostLabel|"test"|
-showPostContentAmount|800|
+className|string|
+showStandardPostCount|integer|
+showAdditionalPostCount|integer|
+showPostLabel|string|
+showPostContentAmount|integer|
 showPostTitle|boolean|
-showPostTitleAmount|80|
-showInPostImageSize|320|first image in a post
+showPostTitleAmount|integer|
+showInPostImageSize|integer|first image in a post
 showInPostYouTubeImageSize|"maxresdefault.jpg", "default", "mqdefault", "hqdefault", "maxresdefault.jpg"|only for YouTube video thumbnail
 showPostComments|boolean|
 showPostDate|boolean|
