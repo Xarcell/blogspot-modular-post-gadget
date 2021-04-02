@@ -33,25 +33,25 @@ I designed this script to work with my templates that “I” design. If you don
 * This is my first Github project, so please bare with me.
 
 ## SETTINGS & VALUES ##
-Setting|value
+Setting|value|Note
 -------|-------
-className|default
-loadPostCount|3
-loadMorePostCount|3
-showPostLabel|"test"
-showPostContentAmount|800
-showPostTitle|true
-showPostTitleAmount|80
-showInPostImageSize|320
-showInPostYouTubeImageSize|"maxresdefault.jpg", "default", "mqdefault", "hqdefault", "maxresdefault.jpg"
-showPostComments|true
-showPostDate|true
-showPostAuthor|true
-showPostImage|true
-showPostCategory|true
-showPostTags|true,
-showPostContent|true,
-showCategoryArchive|true
-showPostContentTruncation|true,
-postContentTruncationHTML|'Read More'
-showPosts|"asRandom", "asRandom", "asRandomByLabel", "asRecent", "asRecentByLabel"
+className|"default"|
+showStandardPostCount|3|
+showAdditionalPostCount|3|
+showPostLabel|"test"|
+showPostContentAmount|800|
+showPostTitle|true|
+showPostTitleAmount|80|
+showInPostImageSize|320|
+showInPostYouTubeImageSize|"maxresdefault.jpg", "default", "mqdefault", "hqdefault", "maxresdefault.jpg"|only for YouTube Video Thumbnail
+showPostComments|true|
+showPostDate|true|
+showPostAuthor|true|
+showPostImage|true|
+showPostCategory|true|
+showPostTags|true|
+showPostContent|true|
+showCategoryArchive|true|
+showPostContentTruncation|true|adds a ellipsis(...) when showPostContentAmount value is reached, or when a jump-link is detected in the post
+postContentTruncationHTML|'Read More'|
+showPosts|"asRandom", "asRandom", "asRandomByLabel", "asRecent", "asRecentByLabel"|
