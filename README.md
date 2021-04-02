@@ -39,11 +39,11 @@ className|string|The class name of the gadget to be styled by CSS.
 showStandardPostCount|integer|This is the number of posts to show.
 showAdditionalPostCount|integer|This is the number of posts to show if more posts are loaded via Ajax.
 showPostLabel|string|Shows posts that have a specfic label(category or tag). This only works with `showPost` values: `asRandomByLabel` or `asRecentByLabel`.
-showPostContentAmount|integer|The amount of characters to show for the post content.
+showPostContentAmount|integer|The amount of characters to show for the post content. This only shows if `showPostContent` value is set to `true`.
 showPostTitle|boolean|This is self-explanatory.
-showPostTitleAmount|integer|The amount of characters to show for the post title.
-showInPostImageSize|integer|This uses the first image found in a post.
-showInPostYouTubeImageSize|"maxresdefault.jpg", "default", "mqdefault", "hqdefault", "maxresdefault.jpg"|This is only for YouTube video thumbnail size.
+showPostTitleAmount|integer|The amount of characters to show for the post title. This only shows if `showPostTitle` value is set to `true`.
+showInPostImageSize|integer|This uses the first image found in a post. This only shows if `showPostImage` value is set to `true`.
+showInPostYouTubeImageSize|"maxresdefault.jpg", "default", "mqdefault", "hqdefault", "maxresdefault.jpg"|This is only for YouTube video thumbnail size. This only shows if `showPostImage` value is set to `true`.
 showPostComments|boolean|This is self-explanatory.
 showPostDate|boolean|This is self-explanatory.
 showPostAuthor|boolean|This is self-explanatory.
