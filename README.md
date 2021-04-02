@@ -32,7 +32,7 @@ I designed this script to work with my templates that “I” design. If you don
 
 * This is my first Github project, so please bare with me.
 
-## SETTINGS & VALUES ##
+## INSTANCE SETTINGS & POSSIBLE VALUES ##
 PARAMETER|VALUE|DESCRIPTION
 -------|-------|-------
 className|string|The class name of the gadget so it can be styled by CSS.
