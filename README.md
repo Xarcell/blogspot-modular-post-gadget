@@ -40,18 +40,18 @@ showStandardPostCount|3|
 showAdditionalPostCount|3|
 showPostLabel|"test"|
 showPostContentAmount|800|
-showPostTitle|true|
+showPostTitle|boolean|
 showPostTitleAmount|80|
-showInPostImageSize|320|
-showInPostYouTubeImageSize|"maxresdefault.jpg", "default", "mqdefault", "hqdefault", "maxresdefault.jpg"|only for YouTube Video Thumbnail
-showPostComments|true|
-showPostDate|true|
-showPostAuthor|true|
-showPostImage|true|
-showPostCategory|true|
-showPostTags|true|
-showPostContent|true|
-showCategoryArchive|true|
-showPostContentTruncation|true|adds a ellipsis(...) when showPostContentAmount value is reached, or when a jump-link is detected in the post
+showInPostImageSize|320|first image in a post
+showInPostYouTubeImageSize|"maxresdefault.jpg", "default", "mqdefault", "hqdefault", "maxresdefault.jpg"|only for YouTube video thumbnail
+showPostComments|boolean|
+showPostDate|boolean|
+showPostAuthor|boolean|
+showPostImage|boolean|
+showPostCategory|boolean|
+showPostTags|boolean|
+showPostContent|boolean|
+showCategoryArchive|boolean|
+showPostContentTruncation|boolean|adds a ellipsis(...) when showPostContentAmount value is reached, or when a jump-link is detected in the post
 postContentTruncationHTML|'Read More'|
 showPosts|"asRandom", "asRandom", "asRandomByLabel", "asRecent", "asRecentByLabel"|
