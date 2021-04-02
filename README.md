@@ -33,17 +33,17 @@ I designed this script to work with my templates that “I” design. If you don
 * This is my first Github project, so please bare with me.
 
 ## SETTINGS & VALUES ##
-Parameter|value|Note
+PARAMETER|VALUE|DESCRIPTION
 -------|-------|-------
-className|string|
-showStandardPostCount|integer|
-showAdditionalPostCount|integer|
-showPostLabel|string|
-showPostContentAmount|integer|
+className|string|The class name of the gadget to be styled by CSS.
+showStandardPostCount|integer|This is the number of posts to show.
+showAdditionalPostCount|integer|This is the number of posts to show if more posts are loaded via Ajax.
+showPostLabel|string|This only works with showPost values: asRandomByLabel or asRecentByLabel.
+showPostContentAmount|integer|The amount of characters to show for the post content.
 showPostTitle|boolean|
-showPostTitleAmount|integer|
-showInPostImageSize|integer|first image in a post
-showInPostYouTubeImageSize|"maxresdefault.jpg", "default", "mqdefault", "hqdefault", "maxresdefault.jpg"|only for YouTube video thumbnail
+showPostTitleAmount|integer|The amount of characters to show for the post title.
+showInPostImageSize|integer|This uses the first image found in a post.
+showInPostYouTubeImageSize|"maxresdefault.jpg", "default", "mqdefault", "hqdefault", "maxresdefault.jpg"|This is only for YouTube video thumbnail size.
 showPostComments|boolean|
 showPostDate|boolean|
 showPostAuthor|boolean|
@@ -51,7 +51,7 @@ showPostImage|boolean|
 showPostCategory|boolean|
 showPostTags|boolean|
 showPostContent|boolean|
-showCategoryArchive|boolean|
-showPostContentTruncation|boolean|adds a ellipsis(...) when showPostContentAmount value is reached, or when a jump-link is detected in the post
-postContentTruncationHTML|'Read More'|
-showPosts|"asRandom", "asRandom", "asRandomByLabel", "asRecent", "asRecentByLabel"|
+showCategoryArchive|boolean|This shows a link to a list of posts by label equal to the showPostLabel value. This only shows if showPosts value is equal to aRandomByLabel or asRecentByLabel.
+showPostContentTruncation|boolean|This adds an ellipsis(...) when the showPostContentAmount value is reached, or when a jump-link is detected in the post.
+postContentTruncationHTML|'Read More'|This only shows if the showPostContentTruncation value is set to true. 
+showPosts|"asRandom", "asRandomByLabel", "asRecent", "asRecentByLabel"|
