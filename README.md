@@ -55,3 +55,6 @@ showCategoryArchive|boolean|This shows a link to a list of posts by label equal 
 showPostContentTruncation|boolean|This adds an ellipsis(...) when the `showPostContentAmount` value is reached, or when a jump-link is detected in the post.
 postContentTruncationHTML|'Read More'|This only shows if the `showPostContentTruncation` value is set to `true`. 
 showPosts|"asRandom", "asRandomByLabel", "asRecent", "asRecentByLabel"|
+
+### Changelog ###
+Version 1.0
