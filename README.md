@@ -38,7 +38,7 @@ PARAMETER|VALUE|DESCRIPTION
 className|string|The class name of the gadget to be styled by CSS.
 showStandardPostCount|integer|This is the number of posts to show.
 showAdditionalPostCount|integer|This is the number of posts to show if more posts are loaded via Ajax.
-showPostLabel|string|This only works with showPost values: asRandomByLabel or asRecentByLabel.
+showPostLabel|string|This only works with `showPost` values: `asRandomByLabel` or `asRecentByLabel`.
 showPostContentAmount|integer|The amount of characters to show for the post content.
 showPostTitle|boolean|
 showPostTitleAmount|integer|The amount of characters to show for the post title.
@@ -51,7 +51,7 @@ showPostImage|boolean|
 showPostCategory|boolean|
 showPostTags|boolean|
 showPostContent|boolean|
-showCategoryArchive|boolean|This shows a link to a list of posts by label equal to the showPostLabel value. This only shows if showPosts value is equal to aRandomByLabel or asRecentByLabel.
-showPostContentTruncation|boolean|This adds an ellipsis(...) when the showPostContentAmount value is reached, or when a jump-link is detected in the post.
-postContentTruncationHTML|'Read More'|This only shows if the showPostContentTruncation value is set to true. 
+showCategoryArchive|boolean|This shows a link to a list of posts by label equal to the `showPostLabel` value. This only shows if the `showPosts` value is equal to `asRandomByLabel` or `asRecentByLabel`.
+showPostContentTruncation|boolean|This adds an ellipsis(...) when the `showPostContentAmount` value is reached, or when a jump-link is detected in the post.
+postContentTruncationHTML|'Read More'|This only shows if the `showPostContentTruncation` value is set to true. 
 showPosts|"asRandom", "asRandomByLabel", "asRecent", "asRecentByLabel"|
