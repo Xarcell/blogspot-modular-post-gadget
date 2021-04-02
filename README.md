@@ -38,20 +38,20 @@ PARAMETER|VALUE|DESCRIPTION
 className|string|The class name of the gadget to be styled by CSS.
 showStandardPostCount|integer|This is the number of posts to show.
 showAdditionalPostCount|integer|This is the number of posts to show if more posts are loaded via Ajax.
-showPostLabel|string|This only works with `showPost` values: `asRandomByLabel` or `asRecentByLabel`.
+showPostLabel|string|Shows posts that have a specfic label(category or tag). This only works with `showPost` values: `asRandomByLabel` or `asRecentByLabel`.
 showPostContentAmount|integer|The amount of characters to show for the post content.
-showPostTitle|boolean|
+showPostTitle|boolean|This is self-explanatory.
 showPostTitleAmount|integer|The amount of characters to show for the post title.
 showInPostImageSize|integer|This uses the first image found in a post.
 showInPostYouTubeImageSize|"maxresdefault.jpg", "default", "mqdefault", "hqdefault", "maxresdefault.jpg"|This is only for YouTube video thumbnail size.
-showPostComments|boolean|
-showPostDate|boolean|
-showPostAuthor|boolean|
-showPostImage|boolean|
-showPostCategory|boolean|
-showPostTags|boolean|
-showPostContent|boolean|
+showPostComments|boolean|This is self-explanatory.
+showPostDate|boolean|This is self-explanatory.
+showPostAuthor|boolean|This is self-explanatory.
+showPostImage|boolean|This is self-explanatory.
+showPostCategory|boolean|Shows only first label(category or tag) alphabetically.
+showPostTags|boolean|Shows a list of all labels(category or tags) used for the post.
+showPostContent|boolean|This is self-explanatory.
 showCategoryArchive|boolean|This shows a link to a list of posts by label equal to the `showPostLabel` value. This only shows if the `showPosts` value is equal to `asRandomByLabel` or `asRecentByLabel`.
 showPostContentTruncation|boolean|This adds an ellipsis(...) when the `showPostContentAmount` value is reached, or when a jump-link is detected in the post.
-postContentTruncationHTML|'Read More'|This only shows if the `showPostContentTruncation` value is set to true. 
+postContentTruncationHTML|'Read More'|This only shows if the `showPostContentTruncation` value is set to `true`. 
 showPosts|"asRandom", "asRandomByLabel", "asRecent", "asRecentByLabel"|
