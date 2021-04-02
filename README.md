@@ -31,3 +31,27 @@ I designed this script to work with my templates that “I” design. If you don
 * More CSS is coming for changing layout, if people actually care about using this script. I have other projects that I work on and don’t want to waste my time further building a script that no one uses.
 
 * This is my first Github project, so please bare with me.
+
+## SETTINGS & VALUES ##
+Setting|value
+-------|-------
+className|default
+loadPostCount|3
+loadMorePostCount|3
+showPostLabel|"test"
+showPostContentAmount|800
+showPostTitle|true
+showPostTitleAmount|80
+showInPostImageSize|320
+showInPostYouTubeImageSize|"maxresdefault.jpg", "default", "mqdefault", "hqdefault", "maxresdefault.jpg"
+showPostComments|true
+showPostDate|true
+showPostAuthor|true
+showPostImage|true
+showPostCategory|true
+showPostTags|true,
+showPostContent|true,
+showCategoryArchive|true
+showPostContentTruncation|true,
+postContentTruncationHTML|'Read More'
+showPosts|"asRandom", "asRandom", "asRandomByLabel", "asRecent", "asRecentByLabel"
