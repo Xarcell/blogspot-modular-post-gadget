@@ -35,7 +35,7 @@ I designed this script to work with my templates that “I” design. If you don
 ## SETTINGS & VALUES ##
 PARAMETER|VALUE|DESCRIPTION
 -------|-------|-------
-className|string|The class name of the gadget to be styled by CSS.
+className|string|The class name of the gadget so it can be styled by CSS.
 showStandardPostCount|integer|This is the number of posts to show.
 showAdditionalPostCount|integer|This is the number of posts to show if more posts are loaded via Ajax.
 showPostLabel|string|Shows posts that have a specfic label(category or tag). This only works with `showPost` values: `asRandomByLabel` or `asRecentByLabel`.
