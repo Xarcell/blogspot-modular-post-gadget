@@ -34,7 +34,7 @@ I designed this script to work with my templates that “I” design. If you don
 
 ## INSTANCE SETTINGS & POSSIBLE VALUES ##
 |PARAMETER|VALUE|DEFAULT|DESCRIPTION|
-|-------|-------|-------|
+|-------|-------|-------|-------|
 |className|string|default|The class name of the gadget so it can be styled by CSS.|
 |showPosts|"asRandom", "asRandomByLabel", "asRecent", "asRecentByLabel"|asRecent|reserved|
 |showOrderBy| “published”, “updated”|"published"|reserved|
