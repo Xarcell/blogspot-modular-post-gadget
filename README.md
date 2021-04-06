@@ -33,7 +33,7 @@ I designed this script to work with my templates that “I” design. If you don
 * This is my first Github project, so please bare with me.
 
 ## INSTANCE SETTINGS & POSSIBLE VALUES ##
-|PARAMETER|VALUE|DEFAULT|DESCRIPTION|
+|SETTING|VALUE|DEFAULT|DESCRIPTION|
 |-------|-------|-------|-------|
 |className|string|default|The class name of the gadget so it can be styled by CSS.|
 |showPosts|"asRandom", "asRandomByLabel", "asRecent", "asRecentByLabel"|asRecent|reserved|
