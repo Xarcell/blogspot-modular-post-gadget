@@ -35,16 +35,16 @@ I designed this script to work with my templates that “I” design. If you don
 ## INSTANCE SETTINGS & POSSIBLE VALUES ##
 PARAMETER|VALUE|DEFAULT|DESCRIPTION
 -------|-------|-------
-className|string|defult|The class name of the gadget so it can be styled by CSS.
+className|string|default|The class name of the gadget so it can be styled by CSS.
 showPosts|"asRandom", "asRandomByLabel", "asRecent", "asRecentByLabel"|asRecent|
-showOrderBy| “published”, “updated”|"published"|
+showOrderBy| “published”, “updated”|"published"|reserved
 showStandardPostCount|integer|3|This is the number of posts to show.
-showAdditionalPost| “asNone”, “asLoadMore”|asNone|
+showAdditionalPost| “asNone”, “asLoadMore”|asNone|reserved
 showAdditionalPostCount|integer|3|This is the number of posts to show if more posts are loaded via Ajax.
-showPostLabel|string|test|Shows posts that have a specific label(category or tag). This only works with `showPost` values: `asRandomByLabel` or `asRecentByLabel`.
+showPostLabel|string|"test"|Shows posts that have a specific label(category or tag). This only works with `showPost` values: `asRandomByLabel` or `asRecentByLabel`.
 showPostImage|boolean|true|This is self-explanatory.
 showInPostImageSize|integer|320|This uses the first image found in a post. This only shows if `showPostImage` value is set to `true`.
-showInPostYouTubeImageSize|"maxresdefault.jpg", "default", "mqdefault", "hqdefault"|"maxresdefault.jpg"|This is only for YouTube video thumbnail size. This only shows if `showPostImage` value is set to `true`.
+showInPostYouTubeImageSize|"default", "mqdefault", "hqdefault", "maxresdefault"|"maxresdefault"|This is only for YouTube video thumbnail size. This only shows if `showPostImage` value is set to `true`.
 showPostTitle|boolean|true|This is self-explanatory.
 showPostTitleAmount|integer|180|The amount of characters to show for the post title. This only shows if `showPostTitle` value is set to `true`.
 showPostAuthor|boolean|true|This is self-explanatory.
