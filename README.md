@@ -33,29 +33,29 @@ I designed this script to work with my templates that “I” design. If you don
 * This is my first Github project, so please bare with me.
 
 ## INSTANCE SETTINGS & POSSIBLE VALUES ##
-PARAMETER|VALUE|DEFAULT|DESCRIPTION
--------|-------|-------
-className|string|default|The class name of the gadget so it can be styled by CSS.
-showPosts|"asRandom", "asRandomByLabel", "asRecent", "asRecentByLabel"|asRecent|
-showOrderBy| “published”, “updated”|"published"|reserved
-showStandardPostCount|integer|3|This is the number of posts to show.
-showAdditionalPost| “asNone”, “asLoadMore”|asNone|reserved
-showAdditionalPostCount|integer|3|This is the number of posts to show if more posts are loaded via Ajax.
-showPostLabel|string|"test"|Shows posts that have a specific label(category or tag). This only works with `showPost` values: `asRandomByLabel` or `asRecentByLabel`.
-showPostImage|boolean|true|This is self-explanatory.
-showInPostImageSize|integer|320|This uses the first image found in a post. This only shows if `showPostImage` value is set to `true`.
-showInPostYouTubeImageSize|"default", "mqdefault", "hqdefault", "maxresdefault"|"maxresdefault"|This is only for YouTube video thumbnail size. This only shows if `showPostImage` value is set to `true`.
-showPostTitle|boolean|true|This is self-explanatory.
-showPostTitleAmount|integer|180|The amount of characters to show for the post title. This only shows if `showPostTitle` value is set to `true`.
-showPostAuthor|boolean|true|This is self-explanatory.
-showPostCategory|boolean|true|Shows only first label(category or tag) alphabetically.
-showPostDate|boolean|true|This is self-explanatory.
-showPostContent|boolean|true|This is self-explanatory.
-showPostContentAmount|integer|360|The amount of characters to show for the post content. This only shows if `showPostContent` value is set to `true`.
-showPostContentTruncation|boolean|true|This adds an ellipsis(...) when the `showPostContentAmount` value is reached, or when a jump-link is detected in the post.
-showPostTags|boolean|true|Shows a list of all labels(category or tags) used for the post.
-showPostComments|boolean|true|This is self-explanatory.
-showCategoryArchive|boolean|true|This shows a link to a list of posts by label equal to the `showPostLabel` value. This only shows if the `showPosts` value is equal to `asRandomByLabel` or `asRecentByLabel`. 
+|PARAMETER|VALUE|DEFAULT|DESCRIPTION|
+|-------|-------|-------|
+|className|string|default|The class name of the gadget so it can be styled by CSS.|
+|showPosts|"asRandom", "asRandomByLabel", "asRecent", "asRecentByLabel"|asRecent|reserved|
+|showOrderBy| “published”, “updated”|"published"|reserved|
+|showStandardPostCount|integer|3|This is the number of posts to show.|
+|showAdditionalPost| “asNone”, “asLoadMore”|asNone|reserved|
+|showAdditionalPostCount|integer|3|This is the number of posts to show if more posts are loaded via Ajax.|
+|showPostLabel|string|"test"|Shows posts that have a specific label(category or tag). This only works with `showPost` values: `asRandomByLabel` or `asRecentByLabel`.|
+|showPostImage|boolean|true|This is self-explanatory.|
+|showInPostImageSize|integer|320|This uses the first image found in a post. This only shows if `showPostImage` value is set to `true`.|
+|showInPostYouTubeImageSize|"default", "mqdefault", "hqdefault", "maxresdefault"|"maxresdefault"|This is only for YouTube video thumbnail size. This only shows if `showPostImage` value is set to `true`.|
+|showPostTitle|boolean|true|This is self-explanatory.|
+|showPostTitleAmount|integer|180|The amount of characters to show for the post title. This only shows if `showPostTitle` value is set to `true`.|
+|showPostAuthor|boolean|true|This is self-explanatory.|
+|showPostCategory|boolean|true|Shows only first label(category or tag) alphabetically.|
+|showPostDate|boolean|true|This is self-explanatory.|
+|showPostContent|boolean|true|This is self-explanatory.|
+|showPostContentAmount|integer|360|The amount of characters to show for the post content. This only shows if `showPostContent` value is set to `true`.|
+|showPostContentTruncation|boolean|true|This adds an ellipsis(...) when the `showPostContentAmount` value is reached, or when a jump-link is detected in the post.|
+|showPostTags|boolean|true|Shows a list of all labels(category or tags) used for the post.|
+|showPostComments|boolean|true|This is self-explanatory.|
+|showCategoryArchive|boolean|true|This shows a link to a list of posts by label equal to the `showPostLabel` value. This only shows if the `showPosts` value is equal to `asRandomByLabel` or `asRecentByLabel`.|
 
 
 ### Changelog ###
