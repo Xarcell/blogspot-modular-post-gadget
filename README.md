@@ -60,32 +60,37 @@ I designed this script to work with my templates that “I” design. If you don
 
 ## EXAMPLE INSTANCE ##
 The following below is an example of evry setting with it's default value. Use only what you need in an instance, like something other than default.
-    <script>
-      myModule.addSection("THIS_INSTANCE_UNIQUE_NAME", { 
-        className: "default",
-        showPosts: "asRandom",
-        showOrderBy: "published",
-        showStandardPostCount: 3,
-        showAdditionalPosts: "asLoadMore",
-        showAdditionalPostCount: 3,
-        showPostLabel: "test",
-        showPostImage: true,
-        showInPostImageSize: 320,
-        showInPostYouTubeImageSize: "maxresdefault.jpg",
-        showPostTitle: true,
-        showPostTitleAmount: 180,
-        showPostAuthor: true,
-        showPostCategory: true,
-        showPostDate: true,
-        showPostContent: true,
-        showPostContentAmount: 360,
-        showPostContentTruncation: true,
-        showPostTags: true,
-        showPostCommentCount: true,
-        showCategoryArchive: true,
-      })
-      myModule.run("THIS_INSTANCE_UNIQUE_NAME")
-    </script>
+
+```
+<script>
+  // <![CDATA[
+  myModule.addSection("THIS_INSTANCE_UNIQUE_NAME", { 
+    className: "default",
+    showPosts: "asRandom",
+    showOrderBy: "published",
+    showStandardPostCount: 3,
+    showAdditionalPosts: "asLoadMore",
+    showAdditionalPostCount: 3,
+    showPostLabel: "test",
+    showPostImage: true,
+    showInPostImageSize: 320,
+    showInPostYouTubeImageSize: "maxresdefault.jpg",
+    showPostTitle: true,
+    showPostTitleAmount: 180,
+    showPostAuthor: true,
+    showPostCategory: true,
+    showPostDate: true,
+    showPostContent: true,
+    showPostContentAmount: 360,
+    showPostContentTruncation: true,
+    showPostTags: true,
+    showPostCommentCount: true,
+    showCategoryArchive: true,
+  })
+  myModule.run("THIS_INSTANCE_UNIQUE_NAME")
+  // ]]>
+</script>
+```
 
 ### Changelog ###
 Version 1.0
