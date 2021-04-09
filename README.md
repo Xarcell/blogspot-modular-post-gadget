@@ -59,7 +59,7 @@ I designed this script to work with my templates that “I” design. If you don
 |showCategoryArchive|boolean|true|This shows a link to a list of posts by label equal to the `showPostLabel` value. This only shows if the `showPosts` value is equal to `asRandomByLabel` or `asRecentByLabel`.|
 
 ## EXAMPLE INSTANCE ##
-The following below is an example of evry setting with it's default value. Use only what you need in an instance, like something other than default.
+The following below is an example of every setting with it's default value. Use only what you need in an instance, or settings that are different than default.
 
 ```
 <script>
