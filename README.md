@@ -61,7 +61,7 @@ I designed this script to work with my templates that “I” design. If you don
 ## EXAMPLE INSTANCE ##
 The following below is an example of evry setting with it's default value. Use only what you need in an instance, like something other than default.
     <script>
-      // <![CDATA[
+      \/\/ <![CDATA[
       myModule.addSection("THIS_INSTANCE_UNIQUE_NAME", { 
         className: "default",
         showPosts: "asRandom",
@@ -86,7 +86,7 @@ The following below is an example of evry setting with it's default value. Use o
         showCategoryArchive: true,
       })
       myModule.run("THIS_INSTANCE_UNIQUE_NAME")
-      // ]]>
+      \/\/ ]]>
     </script>
 
 ### Changelog ###
